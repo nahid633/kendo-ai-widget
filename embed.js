@@ -26,7 +26,7 @@
     }
 
     // Load your Angular Elements bundle
-    const base = 'https://nahid633.github.io/kendo-ai-widget/';
+    const base = 'https://nahid633.github.io/kendo-ai-widget';
     function loadModule(src) {
         return new Promise((resolve, reject) => {
             const s = document.createElement('script');
@@ -63,5 +63,6 @@
         console.error('Failed to load Spice Chatbot:', err);
     });
 })();
+
 
 
