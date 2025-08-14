@@ -26,7 +26,7 @@
     }
 
     // Load your Angular Elements bundle
-    const base = 'https://cdn.example.com/spice-chatbot/v1/browser';
+    const base = '';
     function loadModule(src) {
         return new Promise((resolve, reject) => {
             const s = document.createElement('script');
@@ -63,3 +63,4 @@
         console.error('Failed to load Spice Chatbot:', err);
     });
 })();
+
